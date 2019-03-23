@@ -25,10 +25,9 @@
 
 <body>
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
+  <div class="overlay">
+    <img class="background" src="img/bg.png"/>
+  </div>
 
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -37,7 +36,7 @@
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-3">DonauTech</h1>
-            <p class="mb-5">Internet technologies without corruption, underpayment and misunderstandings!
+            <p class="mb-5" id="mb-5">
               <div><strong>May 2019</strong>! Sign up for updates!</div></p>
             <div class="input-group input-group-newsletter">
               <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
